@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Primary Colors</title>
+    <link rel="stylesheet" href = "color.css">      <!-- references css file for style -->
+
+</head>
+
+<body>
+
+<!-- Puts title at top of page -->
+<h1>
+    <span style="color:red">Pri</span>
+    <span style="color:yellow">mary</span>
+    <span style="color:blue">Colors</span>
+</h1>
+
+<!-- Sets up boxes (and arrow) in order to manipulate using DOM-->
+<div class="container">
+    <div id = "box1" class = "box"></div>
+    <div id = "box2" class = "box"></div>
+    <img src="arrow.png" alt="arrow" width = "100" height = "100">
+    <div id = "box3" class = "box"></div>
+</div>
+
+<!-- box1 selection of colors -->
+<select name="choices" id="choices">
+    <option value="white">--- Please Select ---</option>
+    <option value="red">Red</option>
+    <option value="yellow">Yellow</option>
+    <option value="blue">Blue</option>
+</select>
+
+<!-- box2 selection of colors -->
+<select name="choices2" id="choices2">
+    <option value="white">--- Please Select ---</option>
+    <option value="red">Red</option>
+    <option value="yellow">Yellow</option>
+    <option value="blue">Blue</option>
+</select>
+
+<div id = "color">White</div>
+
+<script src = "Primary_colors.js"></script>     <!-- references js file for script -->
+
+</body>
+</html>
+

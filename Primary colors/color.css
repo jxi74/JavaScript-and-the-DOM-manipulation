@@ -1,0 +1,22 @@
+
+body { /* sets background color for html page */
+    background-color: beige;
+}
+
+.box {
+    border: 1px outset black;
+    background-color: white;
+    width: 30px;
+    padding: 50px;
+    margin: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 0fr .5fr 3fr 40fr;
+}
+
+#color {
+    display: inline;
+    margin-left: 155px;
+}

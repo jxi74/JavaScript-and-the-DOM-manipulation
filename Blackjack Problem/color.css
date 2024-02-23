@@ -1,0 +1,108 @@
+/* . is for class  # is for id */
+.body { /* sets background color for html page */
+    background-color: green;
+    border: purple;
+    border-radius: 10px;
+    display: flex;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.side-panel {
+    background: darkgrey;
+    display: block;
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+    float: left;
+}
+
+.player-div{
+    display: block;
+    width: 100%;
+    height: 50%;
+}
+
+.dealer-div {
+    display: block;
+    width: 100%;
+    height: 40%;
+}
+
+.board {
+    display: block;
+    width: 80%;
+    background-color: brown;
+    margin-right: 2rem;
+    border: 4px solid purple;
+}
+
+#dealer {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+
+}
+
+
+#player {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+
+}
+
+.side-buttons {
+
+}
+
+.game-buttons {
+    background-color: #f1f1f1;
+    width: 150px;
+    margin: 2rem auto 2rem auto;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.game-buttons:hover {
+    background-color:red;
+    cursor: pointer;
+}
+
+#exit {
+    margin: 10rem auto 10rem auto;
+}
+
+#up-card {
+    display:inline;
+    /*margin: 50px;*/
+    /*width: 200px;*/
+    /*content:url("2_of_clubs.png");*/
+}
+
+#down-card {
+    display:inline;
+    visibility: hidden;
+
+    height: 290px;
+
+    /*content:url("face_down_card.png");*/
+}
+
+.player-card {
+    display:inline;
+}
+
+.dealer-card {
+    display:inline;
+}
+
+#hit {
+    visibility: hidden;
+}
+
+#stand {
+    visibility: hidden;
+}
