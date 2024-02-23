@@ -129,9 +129,9 @@ function deal() {
     // If Dealer has blackjack after cards are dealt, GG
     if (dealer_score === 21) {
         window.setTimeout(function() {removeButtons();}, 1);
-        //let twenty_one = new Audio("21.mp3");
-        //twenty_one.volume = 0.3;
-        //twenty_one.play();
+        let twenty_one = new Audio("21.mp3");
+        twenty_one.volume = 0.3;
+        twenty_one.play();
         window.setTimeout(function(){alert("OMG!! Dealer got Blackjack :((")}, 2000);
         down_card_img.width = 200;
         window.setTimeout(function(){down_card_img.src = down_card.card}, 1000);
