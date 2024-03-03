@@ -3,8 +3,8 @@
 
 ## Blackjack
 Link: https://jxi74.github.io/JavaScript-and-the-DOM-manipulation/Blackjack%20Problem/
-[<img src=https://i.imgur.com/UpJm5RZ.png>](https://jxi74.github.io/JavaScript-and-the-DOM-manipulation/Blackjack%20Problem/)
+[<img src="https://github.com/jxi74/JavaScript-and-the-DOM-manipulation/blob/main/Blackjack%20Problem/blackjack.PNG">](https://jxi74.github.io/JavaScript-and-the-DOM-manipulation/Blackjack%20Problem/)
 
 ## Primary Colors
 Link: https://jxi74.github.io/JavaScript-and-the-DOM-manipulation/Primary%20colors/
-[<img src=https://i.imgur.com/qooLyDh.png>](https://jxi74.github.io/JavaScript-and-the-DOM-manipulation/Primary%20colors/)
+[<img src="https://github.com/jxi74/JavaScript-and-the-DOM-manipulation/blob/main/Primary%20colors/primarycolors.PNG">](https://jxi74.github.io/JavaScript-and-the-DOM-manipulation/Primary%20colors/)
